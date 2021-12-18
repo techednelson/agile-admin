@@ -1,11 +1,10 @@
 import React from 'react';
-import type { NextPage } from 'next';
 import Container from '../components/Container';
 
-const Home: NextPage = () => (
+const Profile = () => (
   <Container>
-    <div>Home</div>
+    <div>Profile</div>
   </Container>
 );
 
-export default Home;
+export default Profile;
